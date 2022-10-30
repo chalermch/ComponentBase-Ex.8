@@ -55,13 +55,13 @@ public class EntityManagerDemo {
         try {
             em.persist(address1);
             em.persist(customer1);
-            
+            em.flush();
             em.persist(address2);
             em.persist(customer2); 
-            
+            em.flush();
             em.persist(address3);
             em.persist(customer3);
-            
+            em.flush();
             em.persist(address4);
             em.persist(customer4);
             
